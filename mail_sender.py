@@ -5,3 +5,25 @@
 #the sender's mail address to a count of the number of times they appear in the file. 
 #After the dictionary is produced, the program reads through the dictionary using 
 #a maximum loop to find the most prolific committer.
+
+name = input("Enter file:")
+if len(name) < 1 : name = "mbox-short.txt"
+handle = open(name)
+user={}
+for lines in handle:
+    if lines.startswith("From "):
+        words=lines.split()
+        if words[1] not in user :
+            user.update({words[1]:1})
+        else :
+            user[words[1]]=user.get(words[1],0)+1
+maximum=0 
+maximum_key=0
+for i in user :
+    if user[i]>maximum:
+        maximum=user[i]
+        maximum_key=i
+        
+print(maximum_key ,user[maximum_key])
+    
+
