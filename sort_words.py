@@ -1,5 +1,6 @@
 
-
+#python program to read a file and then read every lines , store evry words in a list
+# sort the list alphabetically 
 
 
 fname = input("Enter file name: ")
