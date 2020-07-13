@@ -2,6 +2,7 @@
 import Tkinter
 #import pytube to use youtube methods
 from pytube import YouTube
+#create an instance of gui window
 root=Tk()
 root.geometry("400x350")
 root.title("Youtube downloader")
