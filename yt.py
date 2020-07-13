@@ -4,6 +4,7 @@ import Tkinter
 from pytube import YouTube
 #create an instance of gui window
 root=Tk()
+#set window size
 root.geometry("400x350")
 root.title("Youtube downloader")
 
