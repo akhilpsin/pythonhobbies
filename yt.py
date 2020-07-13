@@ -1,3 +1,4 @@
+#import tkinter module , its an gui library for python
 import Tkinter
 from pytube import YouTube
 root=Tk()
