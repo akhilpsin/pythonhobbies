@@ -6,6 +6,7 @@ from pytube import YouTube
 root=Tk()
 #set window size
 root.geometry("400x350")
+#set window title
 root.title("Youtube downloader")
 
 def download():
