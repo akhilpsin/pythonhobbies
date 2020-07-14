@@ -18,6 +18,7 @@ def download():
 		
 		#main code to download video from the source
 		YouTube(link.get()).streams.first().download()
+		#status update
 		link.set("operation successful")
 	except Exception as e:
 		myVar.set("error")
