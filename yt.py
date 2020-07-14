@@ -15,6 +15,8 @@ def download():
 		myVar.set("downloading")
 		#updating gui window to set text
 		root.update()
+		
+		#main code to download video from the source
 		YouTube(link.get()).streams.first().download()
 		link.set("operation successful")
 	except Exception as e:
