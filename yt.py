@@ -11,6 +11,7 @@ root.title("Youtube downloader")
 
 def download():
 	try:
+	  #to set dialog box text
 		myVar.set("downloading")
 		root.update()
 		YouTube(link.get()).streams.first().download()
