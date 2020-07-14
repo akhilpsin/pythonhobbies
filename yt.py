@@ -28,6 +28,7 @@ def download():
 #gui label
 Label(root,text="welcome to downloader",font="Consolas 15 bold").pack()
 myVar=StringVar()
+#to accept the link
 myVar.Set("Enter the link below")
 Entry(root,textvariable=myVar,width=40).pack(pady=10)
 link=StringVar()
