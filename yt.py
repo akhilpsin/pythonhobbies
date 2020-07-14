@@ -25,7 +25,7 @@ def download():
 		myVar.set("error")
 		root.update()
 		link.set("enter correct link")
-
+#gui label
 Label(root,text="welcome to downloader",font="Consolas 15 bold").pack()
 myVar=StringVar()
 myVar.Set("Enter the link below")
