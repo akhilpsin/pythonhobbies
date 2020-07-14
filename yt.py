@@ -13,6 +13,7 @@ def download():
 	try:
 	  #to set dialog box text
 		myVar.set("downloading")
+		#updating gui window to set text
 		root.update()
 		YouTube(link.get()).streams.first().download()
 		link.set("operation successful")
