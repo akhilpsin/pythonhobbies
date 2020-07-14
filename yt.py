@@ -21,6 +21,7 @@ def download():
 		#status update
 		link.set("operation successful")
 	except Exception as e:
+	  #throw exception dialog
 		myVar.set("error")
 		root.update()
 		link.set("enter correct link")
