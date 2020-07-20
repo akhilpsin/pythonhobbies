@@ -3,6 +3,7 @@
 
 #below is the variable "sentence" containing the input
 sentence = "python is a high level general purpose programming language that can be applied to many different classes of problems."
+#variable to Store the result
 num_a_or_e=0
 words=sentence.split()
 for i in words:
