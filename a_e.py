@@ -9,7 +9,7 @@ num_a_or_e=0
 #split each words in the sentence
 words=sentence.split()
 
-
+#for every word in the words list ,check whether it contains a or e
 for i in words:
     if ("a" in i)or("e" in i):
         num_a_or_e=num_a_or_e+1
