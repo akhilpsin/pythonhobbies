@@ -1,3 +1,4 @@
+#Algorithm for breadth first search in python 
 graph = {
   'A' : ['B','C'],
   'B' : ['D', 'E'],
@@ -15,11 +16,11 @@ def bfs(visited, graph, node):
   queue.append(node)
 
   while queue:
-    s = queue.pop(0) 
-    print (s, end = " ") 
+    s = queue.pop(0)
+    print (s, end = " ")
 
     for neighbour in graph[s]:
-    
+
       if neighbour not in visited:
         visited.append(neighbou)
         queue.append(neighbour)
