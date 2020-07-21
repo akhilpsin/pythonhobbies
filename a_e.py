@@ -1,6 +1,5 @@
 #Write code that counts the number of words in sentence that contain either an “a” or an “e”.
 #Store the result in the variable num_a_or_e.
-
 #below is the variable "sentence" containing the input
 sentence = "python is a high level general purpose programming language that can be applied to many different classes of problems."
 #variable to Store the result
