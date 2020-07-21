@@ -26,4 +26,5 @@ def bfs(visited, graph, node):
         visited.append(neighbou)
         queue.append(neighbour)
 
+#trigger bfs function with data
 bfs(visited, graph, 'A')
