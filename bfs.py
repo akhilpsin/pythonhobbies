@@ -1,4 +1,4 @@
-#Algorithm for breadth first search in python 
+#Algorithm for breadth first search in python
 graph = {
   'A' : ['B','C'],
   'B' : ['D', 'E'],
@@ -11,6 +11,7 @@ graph = {
 visited = [] # List to keep track of visited nodes.
 queue = []     #Initialize a queue
 
+#Initialize bfs function
 def bfs(visited, graph, node):
   visited.append(node)
   queue.append(node)
