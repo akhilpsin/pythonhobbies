@@ -4,7 +4,6 @@
 sentence = "python is a high level general purpose programming language that can be applied to many different classes of problems."
 #variable to Store the result
 num_a_or_e=0
-
 #split each words in the sentence
 words=sentence.split()
 
