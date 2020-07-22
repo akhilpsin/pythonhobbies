@@ -2,6 +2,8 @@
 # and print the contents of the file in upper case.
 #we need to get the file name
 fname = input("Enter file name: ")
+
+
 fh = open(fname)
 y=fh.read()
 y=y.strip()
