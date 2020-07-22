@@ -3,7 +3,7 @@
 #we need to get the file name
 fname = input("Enter file name: ")
 
-
+#open the file using open function
 fh = open(fname)
 y=fh.read()
 y=y.strip()
