@@ -5,6 +5,8 @@ fname = input("Enter file name: ")
 
 #open the file using open function
 fh = open(fname)
+
+#read the file
 y=fh.read()
 y=y.strip()
 print(y.upper())
