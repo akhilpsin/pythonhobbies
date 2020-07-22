@@ -8,5 +8,7 @@ fh = open(fname)
 
 #read the file
 y=fh.read()
+
+#strip the characters in the file
 y=y.strip()
 print(y.upper())
