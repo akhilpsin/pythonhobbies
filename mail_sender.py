@@ -13,6 +13,7 @@ if len(name) < 1 : name = "mbox-short.txt"
 handle = open(name)
 user={}
 for lines in handle:
+    #get the starting of each line
     if lines.startswith("From "):
         words=lines.split()
         if words[1] not in user :
