@@ -9,6 +9,7 @@
 #get the file name
 name = input("Enter file:")
 if len(name) < 1 : name = "mbox-short.txt"
+#open the file
 handle = open(name)
 user={}
 for lines in handle:
