@@ -11,4 +11,5 @@ y=fh.read()
 
 #strip the characters in the file
 y=y.strip()
+
 print(y.upper())
