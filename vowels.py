@@ -1,14 +1,8 @@
-#Write code that will count the number of vowels in the sentence s and assign the result to the variable num_vowels. For this problem, vowels are only a, e, i, o, and u. Hint: use the in operator with vowels.
+# taking user input
+ch = input("Enter a character: ")
 
-s = "singing in the rain and playing in the rain are two entirely different situations but both can be fun"
-vowels = ['a','e','i','o','u']
-
-# Write your code here.
-num_vowels=0
-words=s.split()
-for i in words:
-    for j in i:
-        if j in vowels:
-            num_vowels=num_vowels+1
-        
-print(num_vowels)
+if(ch=='A' or ch=='a' or ch=='E' or ch =='e' or ch=='I'
+ or ch=='i' or ch=='O' or ch=='o' or ch=='U' or ch=='u'):
+    print(ch, "is a Vowel")
+else:
+    print(ch, "is a Consonant")
