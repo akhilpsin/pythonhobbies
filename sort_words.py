@@ -1,17 +1,18 @@
+# Program to sort alphabetically the words form a string provided by the user
 
-#python program to read a file and then read every lines , store evry words in a list
-# sort the list alphabetically 
+my_str = "Hello this Is an Example With cased letters"
 
+# To take input from the user
+#my_str = input("Enter a string: ")
 
-fname = input("Enter file name: ")
-fh = open(fname)
-lst = list()
-wordlist=[]
-for line in fh: 
-    words=line.split()
-    for x in words:
-        if x not in wordlist:
-    	   wordlist.append(x)
+# breakdown the string into a list of words
+words = my_str.split()
 
-x=sorted(wordlist)
-print(x)
+# sort the list
+words.sort()
+
+# display the sorted words
+
+print("The sorted words are:")
+for word in words:
+   print(word)
